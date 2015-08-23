@@ -1,0 +1,28 @@
+{
+  "name": "apchange",
+  "version": "1.0.0",
+  "description": "AP item change analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emilabraham/apchange.git"
+  },
+  "author": "Emil Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilabraham/apchange/issues"
+  },
+  "homepage": "https://github.com/emilabraham/apchange",
+  "devDependencies": {
+    "bluebird": "^2.9.24",
+    "nconf": "^0.7.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "jquery": "1.11.3",
+    "request": "^2.55.0"
+  }
+}
