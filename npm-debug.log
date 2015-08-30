@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'riot-games-api-nodejs' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'riot-games-api-nodejs', null ]
+6 verbose cache add name=undefined spec="riot-games-api-nodejs" args=["riot-games-api-nodejs",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'riot-games-api-nodejs',
+7 verbose parsed url   path: 'riot-games-api-nodejs',
+7 verbose parsed url   href: 'riot-games-api-nodejs' }
+8 silly lockFile 95cd8c72-riot-games-api-nodejs riot-games-api-nodejs
+9 verbose lock riot-games-api-nodejs /home/honestemu/.npm/95cd8c72-riot-games-api-nodejs.lock
+10 silly lockFile 95cd8c72-riot-games-api-nodejs riot-games-api-nodejs
+11 silly lockFile 95cd8c72-riot-games-api-nodejs riot-games-api-nodejs
+12 verbose addNamed [ 'riot-games-api-nodejs', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 273095e5-riot-games-api-nodejs riot-games-api-nodejs@
+15 verbose lock riot-games-api-nodejs@ /home/honestemu/.npm/273095e5-riot-games-api-nodejs.lock
+16 silly addNameRange { name: 'riot-games-api-nodejs', range: '*', hasData: false }
+17 verbose request where is /riot-games-api-nodejs
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id adec6034fd812170
+20 verbose url raw /riot-games-api-nodejs
+21 verbose url resolving [ 'https://registry.npmjs.org/', './riot-games-api-nodejs' ]
+22 verbose url resolved https://registry.npmjs.org/riot-games-api-nodejs
+23 verbose request where is https://registry.npmjs.org/riot-games-api-nodejs
+24 info trying registry request attempt 1 at 15:21:26
+25 verbose etag "9S37SYQCMA3X9FK7U562GTBXB"
+26 http GET https://registry.npmjs.org/riot-games-api-nodejs
+27 http 304 https://registry.npmjs.org/riot-games-api-nodejs
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sun, 30 Aug 2015 19:21:26 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"9S37SYQCMA3X9FK7U562GTBXB"',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1440962486.344605,VS0,VE31',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/riot-games-api-nodejs from cache
+30 silly addNameRange number 2 { name: 'riot-games-api-nodejs', range: '*', hasData: true }
+31 silly addNameRange versions [ 'riot-games-api-nodejs',
+31 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6' ] ]
+32 verbose addNamed [ 'riot-games-api-nodejs', '1.0.6' ]
+33 verbose addNamed [ '1.0.6', '1.0.6' ]
+34 silly lockFile 478365b2-riot-games-api-nodejs-1-0-6 riot-games-api-nodejs@1.0.6
+35 verbose lock riot-games-api-nodejs@1.0.6 /home/honestemu/.npm/478365b2-riot-games-api-nodejs-1-0-6.lock
+36 silly lockFile 478365b2-riot-games-api-nodejs-1-0-6 riot-games-api-nodejs@1.0.6
+37 silly lockFile 478365b2-riot-games-api-nodejs-1-0-6 riot-games-api-nodejs@1.0.6
+38 silly lockFile 273095e5-riot-games-api-nodejs riot-games-api-nodejs@
+39 silly lockFile 273095e5-riot-games-api-nodejs riot-games-api-nodejs@
+40 silly resolved [ { name: 'riot-games-api-nodejs',
+40 silly resolved     version: '1.0.6',
+40 silly resolved     description: 'Access Riot Games API with ease.',
+40 silly resolved     main: 'app.js',
+40 silly resolved     author: { name: 'Patrick McHugh', email: 'thehardtacos@gmail.com' },
+40 silly resolved     homepage: 'https://github.com/HardTacos/riot-games-api-nodejs',
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'git://github.com/HardTacos/riot-games-api-nodejs' },
+40 silly resolved     keywords:
+40 silly resolved      [ 'riot',
+40 silly resolved        'games',
+40 silly resolved        'api',
+40 silly resolved        'league',
+40 silly resolved        'of',
+40 silly resolved        'legends',
+40 silly resolved        'champions',
+40 silly resolved        'match',
+40 silly resolved        'history',
+40 silly resolved        'rito',
+40 silly resolved        'reference' ],
+40 silly resolved     license: 'MIT',
+40 silly resolved     bugs: { url: 'https://github.com/hardtacos/riot-games-api-nodejs/issues' },
+40 silly resolved     dependencies: { 'node-xml2json': '1.x.x' },
+40 silly resolved     gitHead: '1c7b3685c9540c990e63a93c949b6c931bd3882d',
+40 silly resolved     _id: 'riot-games-api-nodejs@1.0.6',
+40 silly resolved     scripts: {},
+40 silly resolved     _shasum: '64137720f3d92bfe18e18c640e480af2bc8c3267',
+40 silly resolved     _from: 'riot-games-api-nodejs@',
+40 silly resolved     _npmVersion: '1.4.28',
+40 silly resolved     _npmUser: { name: 'hardtacos', email: 'thehardtacos@gmail.com' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: '64137720f3d92bfe18e18c640e480af2bc8c3267',
+40 silly resolved        tarball: 'http://registry.npmjs.org/riot-games-api-nodejs/-/riot-games-api-nodejs-1.0.6.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/riot-games-api-nodejs/-/riot-games-api-nodejs-1.0.6.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install riot-games-api-nodejs@1.0.6 into /usr/lib
+42 info installOne riot-games-api-nodejs@1.0.6
+43 verbose lib/node_modules/riot-games-api-nodejs unbuild
+44 verbose tar unpack /home/honestemu/.npm/riot-games-api-nodejs/1.0.6/package.tgz
+45 silly lockFile e75509ba-de-modules-riot-games-api-nodejs tar:///usr/lib/node_modules/riot-games-api-nodejs
+46 verbose lock tar:///usr/lib/node_modules/riot-games-api-nodejs /home/honestemu/.npm/e75509ba-de-modules-riot-games-api-nodejs.lock
+47 silly lockFile d35e3e42-mes-api-nodejs-1-0-6-package-tgz tar:///home/honestemu/.npm/riot-games-api-nodejs/1.0.6/package.tgz
+48 verbose lock tar:///home/honestemu/.npm/riot-games-api-nodejs/1.0.6/package.tgz /home/honestemu/.npm/d35e3e42-mes-api-nodejs-1-0-6-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/riot-games-api-nodejs'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/riot-games-api-nodejs']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/riot-games-api-nodejs',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/riot-games-api-nodejs',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:108:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.16.0-46-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "riot-games-api-nodejs"
+54 error cwd /home/honestemu/Documents/apchange
+55 error node -v v0.10.40
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/riot-games-api-nodejs
+58 error fstream_path /usr/lib/node_modules/riot-games-api-nodejs
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/riot-games-api-nodejs'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:108:15)
+65 verbose exit [ 3, true ]
